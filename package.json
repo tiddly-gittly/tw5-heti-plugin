@@ -6,23 +6,12 @@
   "version": "0.0.2",
 
   "author": "Sivan <sun.sivan@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/sivan/heti/issues"
-  },
   "homepage": "https://github.com/sivan/heti#readme",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sivan/heti.git"
   },
 
-  "keywords": [
-    "typography",
-    "clreq",
-    "css",
-    "sass",
-    "scss"
-  ],
 
   "scripts": {
     "reset": "rimraf ./**/node_modules",
@@ -81,34 +70,5 @@
     "tiddlywiki": "^5.2.5",
     "tiddlywiki-plugin-dev": "^0.0.34",
     "heti-findandreplacedomtext": "^0.5.0"
-  },
-  "stylelint": {
-    "extends": [
-      "stylelint-config-standard",
-      "stylelint-config-recommended-scss"
-    ],
-    "rules": {
-      "no-descending-specificity": null,
-      "at-rule-empty-line-before": null,
-      "block-opening-brace-space-before": "always",
-      "block-closing-brace-newline-after": [
-        "always",
-        {
-          "ignoreAtRules": [
-            "if",
-            "else"
-          ]
-        }
-      ],
-      "rule-empty-line-before": null,
-      "selector-type-no-unknown": [
-        true,
-        {
-          "ignore": [
-            "custom-elements"
-          ]
-        }
-      ]
-    }
   }
 }
