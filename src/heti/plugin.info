@@ -1,7 +1,7 @@
 {
   "title": "$:/plugins/whitefall/heti",
   "author": "whitefall",
-  "description": "Description of this plugin",
+  "description": "专为中文内容展示设计的排版样式增强",
   "core-version": ">=5.1.22",
   "plugin-type": "plugin",
   "version": "0.0.1",

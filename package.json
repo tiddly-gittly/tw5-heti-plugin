@@ -36,14 +36,9 @@
     "publish": "npm run clean && tiddlywiki-plugin-dev publish",
     "publish:offline": "npm run clean && tiddlywiki-plugin-dev publish --offline",
 
-    
-    "start": "sass -w --no-source-map _site/scss/:_site/",
-    "compile": "rollup -c -w",
-    "build:style": "sass --no-source-map --style=compressed lib/heti.scss:umd/heti.min.css",
-    "build:site": "sass --no-source-map _site/scss/:_site/",
-    "build:script": "rollup -c",
-    "build-heti": "npm run build:style && npm run build:site && npm run build:script",
-    "test": "npx stylelint --config package.json 'lib/**/*.scss'"
+    "build-heti": "npm run build:style && npm run build:script",
+    "build:style": "sass --no-source-map --style=compressed heti-github/lib/heti.scss:src/heti/heti.min.css",
+    "build:script": "rollup -c"
   },
   "engines": {
     "node": ">=16"
