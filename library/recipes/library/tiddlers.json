@@ -1,0 +1,16 @@
+[
+    {
+        "title": "$:/plugins/whitefall/heti",
+        "author": "whitefall",
+        "description": "专为中文内容展示设计的排版样式增强",
+        "core-version": ">=5.1.22",
+        "plugin-type": "plugin",
+        "version": "0.0.1",
+        "list": "readme",
+        "dependents": "",
+        "type": "application/json",
+        "Modern.TiddlyDev#SHA256-Hashed": "bbcd3664b575bfcdb27ed80161b1027bc359e076b868990cd806dd7c094e5aed",
+        "readme": "!! heti 赫蹏（hètí）\n\ngithub上游项目主页：https://github.com/sivan/heti\n\n赫蹏（hètí）是专为中文内容展示设计的排版样式增强。它基于通行的中文排版规范而来，可以为网站的读者带来更好的文章阅读体验。\n\n封装heti赫蹏为tiddlywiki插件。",
+        "requires-reload": "yes"
+    }
+]
