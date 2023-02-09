@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/whitefall/heti",
+  "author": "whitefall",
+  "description": "Description of this plugin",
+  "core-version": ">=5.1.22",
+  "plugin-type": "plugin",
+  "version": "0.0.1",
+  "list": "readme"
+}
