@@ -11,3 +11,15 @@ css 样式被划了横线:http://www.nowamagic.net/csszone/css_SeletorPriorityRu
 封装heti赫蹏为tiddlywiki插件。
 
 github上游项目主页：https://github.com/sivan/heti
+
+https://tiddly-gittly.github.io/Modern.TiddlyDev/
+
+
+```
+  "author": "Sivan <sun.sivan@gmail.com>",
+  "homepage": "https://github.com/sivan/heti#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivan/heti.git"
+  },
+```

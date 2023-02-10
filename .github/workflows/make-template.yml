@@ -50,7 +50,7 @@ jobs:
       - name: Build Plugins
         run: |
           pnpm run build
-          cp dist/\$__plugins_whitefall_heti.json upload/wiki/tiddlers/
+          cp dist/\$__plugins_tiddly-gittly_heti.json upload/wiki/tiddlers/
 
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop

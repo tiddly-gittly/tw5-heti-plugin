@@ -1,0 +1,32 @@
+created: 20230209162756774
+creator: 马不前
+modified: 20230209180252323
+modifier: 马不前
+tags: 
+title: $:/plugins/tiddly-gittly/heti/dropdown
+tmap.id: ff9c3868-f2d2-4967-b61e-a3605465a91d
+
+\define toolbar-button-heti-inner()
+<$button tag="a">
+  <$action-sendmessage $message="tm-edit-text-operation" $param="replace-selection" text={{$(snippetTitle)$}} />
+  <$action-deletetiddler $filter=<<dropdown-state>> />
+    <$view tiddler=<<snippetTitle>> field="caption" mode="inline">
+      <$view tiddler=<<snippetTitle>> field="title" mode="inline"/>
+      </$view>
+</$button>
+\end
+
+<$list filter="[all[shadows+tiddlers]tag[$:/plugins/tiddly-gittly/heti/heti]!has[draft.of]sort[caption]]"
+  variable="snippetTitle">
+  <<toolbar-button-heti-inner>>
+</$list>
+
+----
+
+<$button tag="a">
+  <$action-navigate $to="$:/plugins/tiddly-gittly/heti/ui/content" />
+  <$action-deletetiddler $filter=<<dropdown-state>> />
+    <em>
+      <$text text={{$:/plugins/tiddly-gittly/heti/ui/content!!caption}} />
+    </em>
+</$button>

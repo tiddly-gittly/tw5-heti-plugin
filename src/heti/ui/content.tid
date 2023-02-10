@@ -1,0 +1,26 @@
+caption: See examples
+created: 20230209163054263
+creator: 马不前
+title: $:/plugins/tiddly-gittly/heti/ui/content
+
+\define dropdown-columns-hete()
+<$select tiddler="$:/plugins/tiddly-gittly/heti/ui/content/text">
+  <option value="{{$:/plugins/tiddly-gittly/heti/example/行间注示例}}">行间注示例</option>
+  <option value="{{$:/plugins/tiddly-gittly/heti/example/古文示例}}">古文示例</option>
+  <option value="{{$:/plugins/tiddly-gittly/heti/example/古诗词示例}}">古诗词示例</option>
+  <option value="{{$:/plugins/tiddly-gittly/heti/example/竖排示例}}">竖排示例</option>
+</$select>
+\end
+
+
+<div style="
+	margin-bottom: 1rem;
+	padding: 10px 28px;
+	border-radius: 5px;
+	box-shadow: 0.5px 1px 17px -8px #A3A5AE;">
+
+预览 <<dropdown-columns-hete>> 的效果：
+
+</div>
+
+{{$:/plugins/tiddly-gittly/heti/example/行间注示例}}
