@@ -51,7 +51,7 @@
   &--poetry {
     // 诗节无缩进，居中显示
     p {
-      text-align: center;
+      text-align: center !important;
       text-indent: 0;
     }
   }

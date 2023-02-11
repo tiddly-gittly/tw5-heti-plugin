@@ -12,7 +12,7 @@
 
   // 诗节无缩进，居中显示
   #{$root-selector}-verse {
-    text-align: center;
+    text-align: center !important;
     text-indent: 0;
   }
 

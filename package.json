@@ -18,7 +18,7 @@
     "publish:offline": "npm run clean && tiddlywiki-plugin-dev publish --offline",
 
     "build-heti": "npm run build:style && npm run build:script",
-    "build:style": "sass --no-source-map --style=compressed heti-github/lib/heti.scss:src/heti/heti.min.css",
+    "build:style": "sass --no-source-map --style=compressed src-heti/lib/heti.scss:src/heti/heti.min.css",
     "build:script": "rollup -c"
   },
   "engines": {

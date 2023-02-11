@@ -3,7 +3,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import {terser} from 'rollup-plugin-terser';
 
 export default {
-  input: 'heti-github/js/heti-addon.js',
+  input: 'src-heti/js/heti-addon.js',
   output: [
     {
       file: 'src/heti/heti-addon.min.js',
