@@ -4,6 +4,6 @@
   "description": "专为中文内容展示设计的排版样式增强",
   "core-version": ">=5.1.22",
   "plugin-type": "plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "list": "readme license"
 }

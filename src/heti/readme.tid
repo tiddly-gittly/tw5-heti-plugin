@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 !! tw5-heti-plugin
 
+[[常用示例|$:/plugins/tiddly-gittly/heti/选择下拉框]]
+
 采用了[[heti项目|https://github.com/sivan/heti]]以及[[演示网址|https://sivan.github.io/heti/#example-verse]]
 
 有些样式我没有放示例进来，比如多栏显示。因为我觉得没必要。有些样式与太微自身存在问题，比如竖排，我怀疑是容器溢出，但我不知道如何解决。还有些，理论上居中了，但在具体条目里并没有完全居中，我怀疑是与底部css冲突了。但总体上是非常好看的。
@@ -19,4 +21,7 @@ type: text/vnd.tiddlywiki
 
 这应该是我做的第一个插件，后续应该不太需要更新。因为用户可以根据需要自己写相应标签。我做一个按钮只是方便直接使用。不过积累到不少的经验，还是很好的。再一次感谢xp教程的作者，从最开始学习太微就看xp教程，现在编写插件还是看xp教程。整个按钮就是模仿xp里的columns插件。大家有兴趣也可以仿照写一个自己的插件玩玩。
 
-[[常用示例|$:/plugins/tiddly-gittly/heti/选择下拉框]]
+!! Contributors
+
+* [[白秋|https://github.com/Zacharia2]]
+* [[dongrentianyu|https://github.com/dongrentianyu/WENAI]]
