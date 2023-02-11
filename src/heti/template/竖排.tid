@@ -5,7 +5,7 @@ created: 20230209151449455
 creator: 马不前
 description: 嵌入竖排模板
 icon: $:/plugins/tiddly-gittly/hete-zh/icon/表示竖排
-tags: $:/plugins/tiddly-gittly/heti/heti
+tags: $:/plugins/tiddly-gittly/heti/template
 title: $:/plugins/tiddly-gittly/heti/template/竖排
 
 <$action-sendmessage

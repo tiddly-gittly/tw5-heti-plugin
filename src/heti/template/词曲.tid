@@ -5,7 +5,7 @@ created: 20230209151454597
 creator: 马不前
 description: 嵌入词曲模板
 icon: $:/plugins/tiddly-gittly/hete-zh/icon/表示词曲
-tags: $:/plugins/tiddly-gittly/heti/heti
+tags: $:/plugins/tiddly-gittly/heti/template
 title: $:/plugins/tiddly-gittly/heti/template/词曲
 
 <$action-sendmessage $message="tm-edit-text-operation" $param="insert-text" text="""<div class=" heti heti--ancient">

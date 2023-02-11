@@ -5,7 +5,7 @@ created: 20230209134032752
 creator: BramChen
 description: 嵌入古文模板
 icon: $:/plugins/tiddly-gittly/hete-zh/icon/表示古文
-tags: $:/plugins/tiddly-gittly/heti/heti
+tags: $:/plugins/tiddly-gittly/heti/template
 title: $:/plugins/tiddly-gittly/heti/template/古文
 
 <$action-sendmessage

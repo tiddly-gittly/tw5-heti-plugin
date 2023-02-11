@@ -12,17 +12,7 @@ title: $:/plugins/tiddly-gittly/heti/dropdown
 </$button>
 \end
 
-<$list filter="[all[shadows+tiddlers]tag[$:/plugins/tiddly-gittly/heti/heti]!has[draft.of]sort[caption]]"
+<$list filter="[all[shadows+tiddlers]tag[$:/plugins/tiddly-gittly/heti/template]!has[draft.of]sort[caption]]"
   variable="snippetTitle">
   <<toolbar-button-heti-inner>>
 </$list>
-
-----
-
-<$button tag="a">
-  <$action-navigate $to="$:/plugins/tiddly-gittly/heti/ui/content" />
-  <$action-deletetiddler $filter=<<dropdown-state>> />
-    <em>
-      <$text text={{$:/plugins/tiddly-gittly/heti/ui/content!!caption}} />
-    </em>
-</$button>
