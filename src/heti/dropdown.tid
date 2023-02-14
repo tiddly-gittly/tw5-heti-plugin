@@ -16,3 +16,5 @@ title: $:/plugins/tiddly-gittly/heti/dropdown
   variable="snippetTitle">
   <<toolbar-button-heti-inner>>
 </$list>
+
+[[示例|$:/plugins/tiddly-gittly/heti/选择下拉框]]

@@ -1,7 +1,7 @@
 title: $:/plugins/tiddly-gittly/heti/选择下拉框
 
 \define select-tiddler-toshow()
-<$select tiddler='$:/generated-list-demo-state'>
+<$select tiddler='$:/generated-list-demo-heti'>
 <$list filter='[[$:/plugins/tiddly-gittly/heti/example/古诗词示例]][[$:/plugins/tiddly-gittly/heti/example/古文示例]][[$:/plugins/tiddly-gittly/heti/example/竖排示例]][[$:/plugins/tiddly-gittly/heti/example/行间注示例]]'>
 <option><$view field='title'/></option>
 </$list>
@@ -14,10 +14,10 @@ title: $:/plugins/tiddly-gittly/heti/选择下拉框
 
 </div>
 
-<$tiddler tiddler={{$:/generated-list-demo-state}}>
+<$tiddler tiddler={{$:/generated-list-demo-heti}}>
 <$link mode='block'/>
 </$tiddler>
 
-<$tiddler tiddler={{$:/generated-list-demo-state}}>
+<$tiddler tiddler={{$:/generated-list-demo-heti}}>
 <$transclude mode='block'/>
 </$tiddler>
