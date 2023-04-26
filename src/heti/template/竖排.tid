@@ -1,0 +1,17 @@
+caption: 竖排模板
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+condition-disabled: [[$:/temp/bold/disabled]get[state-disabled]else[no]]
+created: 20230209151449455
+creator: 马不前
+description: 嵌入竖排模板
+icon: $:/plugins/tiddly-gittly/hete-zh/icon/表示竖排
+tags: $:/plugins/tiddly-gittly/heti/template
+title: $:/plugins/tiddly-gittly/heti/template/竖排
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="insert-text"
+	text=""" <section class="heti--vertical heti--ancient">
+
+	 </section>"""
+/>

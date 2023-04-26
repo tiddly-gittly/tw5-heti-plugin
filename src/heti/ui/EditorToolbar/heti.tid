@@ -1,0 +1,10 @@
+caption: 古文排版
+condition: [<targetTiddler>]
+created: 20230209161808850
+creator: 马不前
+description: 古文排版
+dropdown: $:/plugins/tiddly-gittly/heti/dropdown
+icon: $:/plugins/tiddly-gittly/heti/icon
+tags: $:/tags/EditorToolbar
+title: $:/plugins/tiddly-gittly/heti/ui/EditorToolbar/heti
+

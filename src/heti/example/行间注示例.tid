@@ -1,0 +1,27 @@
+created: 20230209124724493
+creator: 马不前
+title: $:/plugins/tiddly-gittly/heti/example/行间注示例
+
+<div class="heti heti--ancient heti--annotation">
+  <u title="名丁的厨工。先秦古书往往以职业放在人名前"><ruby>
+      <rb>庖</rb>
+      <rp>(</rp>
+      <rt lang="zh-Latn">páo</rt>
+      <rp>)</rp>
+    </ruby>丁</u>
+</div>
+
+里面需要用到ruby，我不懂，使用时自行查找相关资料。
+
+
+```
+<div class="heti heti--ancient heti--annotation">
+  <u title="名丁的厨工。先秦古书往往以职业放在人名前"><ruby>
+      <rb>庖</rb>
+      <rp>(</rp>
+      <rt lang="zh-Latn">páo</rt>
+      <rp>)</rp>
+    </ruby>丁</u>
+</div>
+
+```

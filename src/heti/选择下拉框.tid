@@ -1,0 +1,23 @@
+title: $:/plugins/tiddly-gittly/heti/选择下拉框
+
+\define select-tiddler-toshow()
+<$select tiddler='$:/generated-list-demo-heti'>
+<$list filter='[[$:/plugins/tiddly-gittly/heti/example/古诗词示例]][[$:/plugins/tiddly-gittly/heti/example/古文示例]][[$:/plugins/tiddly-gittly/heti/example/竖排示例]][[$:/plugins/tiddly-gittly/heti/example/行间注示例]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+\end
+
+<div style="margin-bottom: 1rem;padding: 10px 28px;border-radius: 5px;box-shadow: 0.5px 1px 17px -8px #A3A5AE;">
+
+浏览条目 <<select-tiddler-toshow>>：
+
+</div>
+
+<$tiddler tiddler={{$:/generated-list-demo-heti}}>
+<$link mode='block'/>
+</$tiddler>
+
+<$tiddler tiddler={{$:/generated-list-demo-heti}}>
+<$transclude mode='block'/>
+</$tiddler>

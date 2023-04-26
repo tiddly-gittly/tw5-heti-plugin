@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/tiddly-gittly/heti",
+  "author": "tiddly-gittly",
+  "description": "专为中文内容展示设计的排版样式增强",
+  "core-version": ">=5.1.22",
+  "plugin-type": "plugin",
+  "version": "0.0.4",
+  "list": "readme license"
+}

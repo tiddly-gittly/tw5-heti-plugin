@@ -1,0 +1,20 @@
+caption: 词曲模板
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+condition-disabled: [[$:/temp/bold/disabled]get[state-disabled]else[no]]
+created: 20230209151454597
+creator: 马不前
+description: 嵌入词曲模板
+icon: $:/plugins/tiddly-gittly/hete-zh/icon/表示词曲
+tags: $:/plugins/tiddly-gittly/heti/template
+title: $:/plugins/tiddly-gittly/heti/template/词曲
+
+<$action-sendmessage $message="tm-edit-text-operation" $param="insert-text" text="""<div class=" heti heti--ancient">
+  <h2>xxx</h2>
+  <p class="heti-verse heti-x-large">
+    xx<span class="heti-hang">。</span><br>
+    xx<span class="heti-hang">。</span><br>
+    xx<span class="heti-hang">。</span><br>
+    xx<span class="heti-hang">。</span>
+  </p>
+  </div>"""
+/>

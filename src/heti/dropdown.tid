@@ -1,0 +1,20 @@
+created: 20230209162756774
+creator: 马不前
+title: $:/plugins/tiddly-gittly/heti/dropdown
+
+\define toolbar-button-heti-inner()
+<$button tag="a">
+  <$action-sendmessage $message="tm-edit-text-operation" $param="replace-selection" text={{$(snippetTitle)$}} />
+  <$action-deletetiddler $filter=<<dropdown-state>> />
+    <$view tiddler=<<snippetTitle>> field="caption" mode="inline">
+      <$view tiddler=<<snippetTitle>> field="title" mode="inline"/>
+      </$view>
+</$button>
+\end
+
+<$list filter="[all[shadows+tiddlers]tag[$:/plugins/tiddly-gittly/heti/template]!has[draft.of]sort[caption]]"
+  variable="snippetTitle">
+  <<toolbar-button-heti-inner>>
+</$list>
+
+[[示例|$:/plugins/tiddly-gittly/heti/选择下拉框]]

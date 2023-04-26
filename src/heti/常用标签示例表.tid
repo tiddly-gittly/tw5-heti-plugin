@@ -1,0 +1,70 @@
+created: 20230209131054619
+creator: 马不前
+title: $:/plugins/tiddly-gittly/heti/常用标签示例表
+
+<section class="section">
+<table>
+            <tr>
+              <th style="width: 72px;">类型</th>
+              <th style="width: 320px;">标签</th>
+              <th style="width: 240px;">效果</th>
+            </tr>
+            <tr>
+              <td>链接</td>
+              <td><code>&lt;a href=&quot;https://github.com/sivan/heti&quot; title=&quot;赫蹏&quot;&gt;heti.css&lt;/a&gt;</code></td>
+              <td><a href="https://github.com/sivan/heti" title="赫蹏">heti.css</a></td>
+            </tr>
+            <tr>
+              <td>缩写</td>
+              <td><code>&lt;abbr title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/abbr&gt;</code></td>
+              <td><abbr title="Cascading Style Sheets">CSS</abbr></td>
+            </tr>
+            <tr>
+              <td>代码</td>
+              <td><code>&lt;code&gt;.heti { star: 5; }&lt;/code&gt;</code></td>
+              <td><code>.heti { star: 5; }</code></td>
+            </tr>
+            <tr>
+              <td>专名号</td>
+              <td><code>此时来自&lt;u title=&quot;位于山东省聊城市阳谷县城东&quot;&gt;景阳冈&lt;/u&gt;的&lt;u&gt;武松&lt;/u&gt;大喝一声：&lt;q&gt;纳命来！&lt;/q&gt;</code></td>
+              <td>此时来自<u title="位于山东省聊城市阳谷县城东">景阳冈</u>的<u>武松</u>大喝一声：<q>纳命来！</q></td>
+            </tr>
+            <tr>
+              <td>文本变动</td>
+              <td><code>这次考试，我考了&lt;del datetime=&quot;17:00:00&quot;&gt;58&lt;/del&gt;&lt;ins datetime=&quot;18:15:00&quot;&gt;98&lt;/ins&gt;分呢！</code></td>
+              <td>这次考试，我考了<del datetime="17:00:00">58</del><ins datetime="18:15:00">98</ins>分呢！</td>
+            </tr>
+            <tr>
+              <td>文本更新</td>
+              <td><code>因为谁也不认识，所以最后我们决定念&lt;s&gt;d&iacute;&lt;/s&gt;t&iacute;。</code></td>
+              <td>因为谁也不认识，所以最后我们决定念<s>dí</s>tí。</td>
+            </tr>
+            <tr>
+              <td>引号</td>
+              <td><code>窃&middot;格瓦拉曾经说过：&lt;q&gt;打工是不可能打工的。&lt;/q&gt;</code></td>
+              <td>窃·格瓦拉曾经说过：<q>打工是不可能打工的。</q></td>
+            </tr>
+            <tr>
+              <td>术语</td>
+              <td><code>&lt;dfn&gt;窃&middot;格瓦拉&lt;/dfn&gt;，中国大陆网络红人、罪犯。被奉为百度「戒赌吧」400万会员的「精神领袖」。</code></td>
+              <td><dfn>窃·格瓦拉</dfn>，中国大陆网络红人、罪犯。被奉为百度「戒赌吧」400万会员的「精神领袖」。</td>
+            </tr>
+            <tr>
+              <td>标记</td>
+              <td><code>这道题&lt;mark&gt;必考&lt;/mark&gt;，你们爱记不记。</code></td>
+              <td>这道题<mark>必考</mark>，你们爱记不记。</td>
+            </tr>
+            <tr>
+              <td>强调</td>
+              <td><code>稳住，&lt;em&gt;我们能赢&lt;/em&gt;！</code></td>
+              <td>稳住，<em>我们能赢</em>！</td>
+            </tr>
+            <tr>
+              <td>着重号</td>
+              <td><code>我们&lt;span class=&quot;heti-em&quot;&gt;必将&lt;/span&gt;战胜这场疫情。</code></td>
+              <td>我们<span class="heti-em">必将</span>战胜这场疫情。</td>
+            </tr>
+          </table>
+					</section>
+					
+有些样式与文档里的样式不一致，具体是什么原因我也不清楚。可去[[原文档|https://sivan.github.io/heti/#tags]]查看。

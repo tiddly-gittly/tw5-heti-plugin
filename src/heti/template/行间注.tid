@@ -1,0 +1,16 @@
+caption: 行间注
+created: 20230209181504170
+creator: 马不前
+tags: $:/plugins/tiddly-gittly/heti/template
+title: $:/plugins/tiddly-gittly/heti/template/行间注
+
+<div class="heti heti--ancient heti--annotation">
+  <u title="要解释的字">
+    <ruby>
+      <rb>字</rb>
+      <rp>(</rp>
+      <rt lang="zh-Latn">读音</rt>
+      <rp>)</rp>
+    </ruby>
+  </u>
+</div>
