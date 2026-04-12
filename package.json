@@ -20,7 +20,7 @@
     "build:script": "rollup -c"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=20"
   },
   "husky": {
     "hooks": {
