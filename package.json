@@ -7,7 +7,7 @@
   "scripts": {
     "reset": "rimraf ./**/node_modules",
     "clean": "rimraf dist",
-    "prepare": "husky install",
+    "prepare": "husky",
     "update": "npm-check-updates -u",
     "new": "tiddlywiki-plugin-dev new",
     "dev": "tiddlywiki-plugin-dev dev",
@@ -58,7 +58,7 @@
   "dependencies": {
     "npm-check-updates": "^20.0.1",
     "tiddlywiki": "^5.3.8",
-    "tiddlywiki-plugin-dev": "^0.4.4",
+    "tiddlywiki-plugin-dev": "^0.5.3",
     "heti-findandreplacedomtext": "^0.5.0"
   },
   "pnpm": {
